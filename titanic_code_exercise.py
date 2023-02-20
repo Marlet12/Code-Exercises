@@ -252,7 +252,7 @@ def visualize(records):
     return my_string
 
 
-preprocessed_file = preprocess("/Users/letizia/Desktop/titanic/cf1f927b-80ec-31c3-8d00-c55aefc59278 3/public/titanic.csv")
+preprocessed_file = preprocess("titanic_data.csv")
 #print(preprocessed_file)
 
 analysed_file = gender_class_rates(preprocessed_file)
